@@ -12,10 +12,10 @@ Examples:
 
 CCN DNS Name
 ```
-curl -https://github.com/logrhythm/minion-install/raw/main/install-salt-minion.sh ; bash ./install-salt-minion.sh master.lr-example-production.mistnet.io
+sudo curl -https://github.com/logrhythm/minion-install/raw/main/install-salt-minion.sh ; bash ./install-salt-minion.sh master.lr-example-production.mistnet.io
 ```
 
 CCN IP
 ```
-curl -https://github.com/logrhythm/minion-install/raw/main/install-salt-minion.sh ; bash ./install-salt-minion.sh 1.2.3.4
+sudo curl -https://github.com/logrhythm/minion-install/raw/main/install-salt-minion.sh ; bash ./install-salt-minion.sh 1.2.3.4
 ```
