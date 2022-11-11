@@ -5,17 +5,17 @@ You should have received a CCN DNS name and/or IP address to use with this scrip
 
 To use:
 ```
-sudo curl -sLO https://github.com/logrhythm/minion-install/raw/main/install-salt-minion.sh ; bash ./install-salt-minion.sh <CCN Address>
+sudo curl -sLO https://github.com/logrhythm/minion-install/raw/main/install-salt-minion.sh ; bash ./install-salt-minion.sh <CCN Address> <probe-name>
 ```
 
 Examples:
 
 CCN DNS Name
 ```
-sudo curl -https://github.com/logrhythm/minion-install/raw/main/install-salt-minion.sh ; bash ./install-salt-minion.sh master.lr-example-production.mistnet.io
+sudo curl -https://github.com/logrhythm/minion-install/raw/main/install-salt-minion.sh ; bash ./install-salt-minion.sh master.lr-example-production.mistnet.io lr-probe
 ```
 
 CCN IP
 ```
-sudo curl -https://github.com/logrhythm/minion-install/raw/main/install-salt-minion.sh ; bash ./install-salt-minion.sh 1.2.3.4
+sudo curl -https://github.com/logrhythm/minion-install/raw/main/install-salt-minion.sh ; bash ./install-salt-minion.sh 1.2.3.4  lr-probe
 ```
