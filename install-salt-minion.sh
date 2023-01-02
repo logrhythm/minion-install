@@ -22,7 +22,7 @@ sudo curl -fsSL -o /usr/share/keyrings/salt-archive-keyring.gpg https://repo.sal
 
 #sudo echo 'deb http://repo.saltstack.com/apt/ubuntu/16.04/amd64/latest xenial main' >> /etc/apt/sources.list.d/saltstack.list
 sudo echo "deb [signed-by=/usr/share/keyrings/salt-archive-keyring.gpg arch=amd64] https://repo.saltproject.io/py3/ubuntu/18.04/amd64/3005 bionic main" | sudo tee /etc/apt/sources.list.d/salt.list
-
+mv /etc/salt /etc/salt.bak
 #exit
 sudo apt-get -y  update
 sudo apt-get install -y  salt-minion
