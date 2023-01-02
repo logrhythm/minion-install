@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-if [ $# -eq 0 ]
+if [ $# -eq 1 ]
   then
     echo "install-salt-minion.sh <CCN Address> <probe name>"
     exit;
